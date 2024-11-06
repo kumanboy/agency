@@ -79,12 +79,12 @@ export default function Home() {
         <meta name="author" content="Devus Software" />
         <meta property="og:title" content="Devus Software - Yangi bosqichdagi Veb Xizmatlar" />
         <meta
-            property="og:description"
+            property="twitter:description"
             content="Devus Software orqali biznesingizni yangi darajaga olib chiqing. Veb dizayn, rivojlantirish va marketing xizmatlari mavjud."
         />
         <meta property="og:image" content="/logo/logo.png" />
         <meta property="og:url" content="https://devussoftware.uz" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="/logo/logo.png" />
       </Head>
       <Element
         name="top"

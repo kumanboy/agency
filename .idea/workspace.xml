@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update workspace.xml and components: Adjust task entries and refactor code formatting">
+    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Add SEO meta tags to page.tsx and update @vercel/analytics dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <workItem from="1730813187893" duration="1223000" />
       <workItem from="1730867878927" duration="202000" />
       <workItem from="1730892591651" duration="3087000" />
-      <workItem from="1730896769716" duration="2241000" />
+      <workItem from="1730896769716" duration="3095000" />
     </task>
     <task id="LOCAL-00001" summary="changed">
       <option name="closed" value="true" />
@@ -115,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730897743354</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add SEO meta tags to page.tsx and update @vercel/analytics dependency">
+      <option name="closed" value="true" />
+      <created>1730903125464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730903125465</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +143,7 @@
     <MESSAGE value="Update text content and image paths across multiple components for localization and branding adjustments" />
     <MESSAGE value="Update useEffect dependency in Cover component and adjust workspace.xml task entries" />
     <MESSAGE value="Update workspace.xml and components: Adjust task entries and refactor code formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and components: Adjust task entries and refactor code formatting" />
+    <MESSAGE value="Add SEO meta tags to page.tsx and update @vercel/analytics dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SEO meta tags to page.tsx and update @vercel/analytics dependency" />
   </component>
 </project>
