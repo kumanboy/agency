@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update workspace.xml: Add new task and VcsManagerConfiguration component">
+    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update text content and image paths across multiple components for localization and branding adjustments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/demos/animated-beam-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/animated-beam-demo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/demos/box-reveal-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/box-reveal-demo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/demos/cover-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/cover-demo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/demos/shooting-stars-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/shooting-stars-demo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/showcase-navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/showcase-navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,8 @@
       <workItem from="1730788706098" duration="254000" />
       <workItem from="1730813187893" duration="1223000" />
       <workItem from="1730867878927" duration="202000" />
-      <workItem from="1730892591651" duration="2855000" />
+      <workItem from="1730892591651" duration="3087000" />
+      <workItem from="1730896769716" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="changed">
       <option name="closed" value="true" />
@@ -93,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730787468500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update text content and image paths across multiple components for localization and branding adjustments">
+      <option name="closed" value="true" />
+      <created>1730896661587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730896661587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed" />
     <MESSAGE value="Update workspace.xml: Add new task and VcsManagerConfiguration component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml: Add new task and VcsManagerConfiguration component" />
+    <MESSAGE value="Update text content and image paths across multiple components for localization and branding adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update text content and image paths across multiple components for localization and branding adjustments" />
   </component>
 </project>
