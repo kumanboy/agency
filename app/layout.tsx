@@ -8,28 +8,25 @@ import React from "react";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Devus | Code & more code",
-  description: "Devus agentligi - bu innovatsion va ijodiy IT xizmatlarini taqdim etuvchi etakchi texnologiya kompaniyasi.",
-  keywords: ["Devus", "JavaScript", "web development", "coding", "devus studio"],
+  metadataBase: new URL('https://talimot.uz'),
+  title: 'Dasturlashga oid maqolalar va dars toplamlar',
+  description:
+      'Dasturlash haqida yangiliklar, maslahatlar, va dasturlash sohasidagi eng soʻnggi xabarlar. Bizning blogda dasturlashni oʻrganish va rivojlantirish uchun qoʻllanma topishingiz mumkin.',
+  authors: [{name: 'Husan Davronov', url: 'https://t.me/Coder_davronov'}],
+  icons: {icon: '/favicon.jpg'},
+  keywords:
+      "raqamli avlod, javascript, reactjs, vuejs, javascript darslari, reactjs darslari, vuejs darslari, dasturlash darslari, o'zbek tilida dasturlash, reactjs o'zbek tilida, reactjs darslari o'zbek tilida, javascript darslari, javascript darslari o'zbek tilida, dasturash darslari o'zbek tilida, dasturlashni o'rganish, dasturlash, IT loyihalar o'zbek tilida",
   openGraph: {
-    title: "Devus | Code & more code",
-    description: "Devus agentligi - bu innovatsion va ijodiy IT xizmatlarini taqdim etuvchi etakchi texnologiya kompaniyasi.",
-    url: "https://your-website.com", // Replace with your actual site URL
-    images: [
-      {
-        url: '/favicon.ico',
-        width: 1200,
-        height: 630,
-        alt: 'Devus Logo',
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Devus | Code & more code",
-    description: "Grow your business with Bird, a design & development studio.",
-    images: ['/favicon.ico'], // Use the same direct image URL
+    title: 'Next Blog dasturlashga oid maqolalar',
+    description:
+        'Dasturlash haqida yangiliklar, maslahatlar, va dasturlash sohasidagi eng soʻnggi xabarlar. Bizning blogda dasturlashni oʻrganish va rivojlantirish uchun qoʻllanma topishingiz mumkin.',
+    type: 'website',
+    url: 'https://talimot.uz',
+    locale: 'en_EN',
+    images: 'https://us-east-1-shared-usea1-02.graphassets.com/cluhz35hg2tcy08licbj9djj2/clvng2vxy14u907lh5hr5wn41',
+    countryName: 'Uzbekistan',
+    siteName: 'Next Blog',
+    emails: 'info@next.edu',
   },
 };
 

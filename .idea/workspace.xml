@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update meta tags in page.tsx and adjust workspace.xml task entries" />
+    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update meta tags in page.tsx and adjust workspace.xml task entries">
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +69,7 @@
       <workItem from="1730813187893" duration="1223000" />
       <workItem from="1730867878927" duration="202000" />
       <workItem from="1730892591651" duration="3087000" />
-      <workItem from="1730896769716" duration="3458000" />
+      <workItem from="1730896769716" duration="3947000" />
     </task>
     <task id="LOCAL-00001" summary="changed">
       <option name="closed" value="true" />
@@ -125,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730904011501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update meta tags in page.tsx and adjust workspace.xml task entries">
+      <option name="closed" value="true" />
+      <created>1730904440108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730904440108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
