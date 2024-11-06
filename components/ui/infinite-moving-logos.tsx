@@ -85,12 +85,12 @@ export const InfiniteMovingLogos = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
+        {items.map((item) => (
           <li
             className="
-        
+
               flex items-center
-              
+
               flex-shrink-00 px-8 "
             style={{
               background:

@@ -26,49 +26,49 @@ interface StarBackgroundProps {
 }
 
 export const StarsBackground: React.FC<StarBackgroundProps> = ({
-  starDensity = 0.00015,
-  allStarsTwinkle = true,
-  twinkleProbability = 0.7,
-  minTwinkleSpeed = 0.5,
-  maxTwinkleSpeed = 1,
-  className,
-}) => {
+                                                                 starDensity = 0.00015,
+                                                                 allStarsTwinkle = true,
+                                                                 twinkleProbability = 0.7,
+                                                                 minTwinkleSpeed = 0.5,
+                                                                 maxTwinkleSpeed = 1,
+                                                                 className,
+                                                               }) => {
   const [stars, setStars] = useState<StarProps[]>([]);
   const canvasRef: RefObject<HTMLCanvasElement> =
-    useRef<HTMLCanvasElement>(null);
+      useRef<HTMLCanvasElement>(null);
 
   const generateStars = useCallback(
-    (width: number, height: number): StarProps[] => {
-      const area = width * height;
-      const numStars = Math.floor(area * starDensity);
-      return Array.from({ length: numStars }, () => {
-        const shouldTwinkle =
-          allStarsTwinkle || Math.random() < twinkleProbability;
-        return {
-          x: Math.random() * width,
-          y: Math.random() * height,
-          radius: Math.random() * 0.05 + 0.5,
-          opacity: Math.random() * 0.5 + 0.5,
-          twinkleSpeed: shouldTwinkle
-            ? minTwinkleSpeed +
-              Math.random() * (maxTwinkleSpeed - minTwinkleSpeed)
-            : null,
-        };
-      });
-    },
-    [
-      starDensity,
-      allStarsTwinkle,
-      twinkleProbability,
-      minTwinkleSpeed,
-      maxTwinkleSpeed,
-    ]
+      (width: number, height: number): StarProps[] => {
+        const area = width * height;
+        const numStars = Math.floor(area * starDensity);
+        return Array.from({ length: numStars }, () => {
+          const shouldTwinkle =
+              allStarsTwinkle || Math.random() < twinkleProbability;
+          return {
+            x: Math.random() * width,
+            y: Math.random() * height,
+            radius: Math.random() * 0.05 + 0.5,
+            opacity: Math.random() * 0.5 + 0.5,
+            twinkleSpeed: shouldTwinkle
+                ? minTwinkleSpeed +
+                Math.random() * (maxTwinkleSpeed - minTwinkleSpeed)
+                : null,
+          };
+        });
+      },
+      [
+        starDensity,
+        allStarsTwinkle,
+        twinkleProbability,
+        minTwinkleSpeed,
+        maxTwinkleSpeed,
+      ]
   );
 
   useEffect(() => {
     const updateStars = () => {
-      if (canvasRef.current) {
-        const canvas = canvasRef.current;
+      const canvas = canvasRef.current;
+      if (canvas) {
         const ctx = canvas.getContext("2d");
         if (!ctx) return;
 
@@ -82,13 +82,14 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
     updateStars();
 
     const resizeObserver = new ResizeObserver(updateStars);
-    if (canvasRef.current) {
-      resizeObserver.observe(canvasRef.current);
+    const canvas = canvasRef.current;
+    if (canvas) {
+      resizeObserver.observe(canvas);
     }
 
     return () => {
-      if (canvasRef.current) {
-        resizeObserver.unobserve(canvasRef.current);
+      if (canvas) {
+        resizeObserver.unobserve(canvas);
       }
     };
   }, [
@@ -119,8 +120,8 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
 
         if (star.twinkleSpeed !== null) {
           star.opacity =
-            0.5 +
-            Math.abs(Math.sin((Date.now() * 0.001) / star.twinkleSpeed) * 0.5);
+              0.5 +
+              Math.abs(Math.sin((Date.now() * 0.001) / star.twinkleSpeed) * 0.5);
         }
       });
 
@@ -135,9 +136,9 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
   }, [stars]);
 
   return (
-    <canvas
-      ref={canvasRef}
-      className={cn("h-full w-full absolute inset-0", className)}
-    />
+      <canvas
+          ref={canvasRef}
+          className={cn("h-full w-full absolute inset-0", className)}
+      />
   );
 };

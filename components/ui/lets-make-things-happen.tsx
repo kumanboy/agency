@@ -14,8 +14,8 @@ function LetsMakeThingsHappenSection() {
                 </p>
 
                 <p className="my-10 text-xl">
-                    Bugun biz bilan bog'laning va raqamli marketing xizmatlarimiz biznesingizni qanday o'shishi va
-                    onlayn muvaffaqiyatga erishishingizga qanday yordam berishi haqida ko'proq ma'lumot oling.
+                    Bugun biz bilan bog`laning va raqamli marketing xizmatlarimiz biznesingizni qanday o`shishi va
+                    onlayn muvaffaqiyatga erishishingizga qanday yordam berishi haqida ko`proq ma`lumot oling.
                 </p>
 
                 <Link
