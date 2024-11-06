@@ -4,6 +4,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import React from "react";
 
+
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

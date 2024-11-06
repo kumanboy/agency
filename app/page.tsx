@@ -15,6 +15,7 @@ import { PiCheckBold } from "react-icons/pi";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import Head from "next/head";
 
 
 const services = [
@@ -65,6 +66,26 @@ export default function Home() {
   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
    bg-[size:14px_24px]"
     >
+      <Head> {/* SEO uchun meta taglar qo'shildi */}
+        <title>Devus Software - Yangi bosqichdagi Veb Xizmatlar</title>
+        <meta
+            name="description"
+            content="Devus Software kompaniyasining Veb Dizayn, SEO, Kontent Yaratish, SMM va boshqa xizmatlari yordamida biznesingizni rivojlantiring."
+        />
+        <meta
+            name="keywords"
+            content="Veb dizayn, SEO, SMM, Kontent yaratish, Email marketing, PPC, Devus Software"
+        />
+        <meta name="author" content="Devus Software" />
+        <meta property="og:title" content="Devus Software - Yangi bosqichdagi Veb Xizmatlar" />
+        <meta
+            property="og:description"
+            content="Devus Software orqali biznesingizni yangi darajaga olib chiqing. Veb dizayn, rivojlantirish va marketing xizmatlari mavjud."
+        />
+        <meta property="og:image" content="/logo/logo.png" />
+        <meta property="og:url" content="https://devussoftware.uz" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <Element
         name="top"
         className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50

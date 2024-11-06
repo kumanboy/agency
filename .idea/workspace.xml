@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update useEffect dependency in Cover component and adjust workspace.xml task entries">
-      <change beforePath="$PROJECT_DIR$/components/ui/infinite-moving-logos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/infinite-moving-logos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/lets-make-things-happen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/lets-make-things-happen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/sparkles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/sparkles.tsx" afterDir="false" />
+    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update workspace.xml and components: Adjust task entries and refactor code formatting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <workItem from="1730813187893" duration="1223000" />
       <workItem from="1730867878927" duration="202000" />
       <workItem from="1730892591651" duration="3087000" />
-      <workItem from="1730896769716" duration="822000" />
+      <workItem from="1730896769716" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="changed">
       <option name="closed" value="true" />
@@ -105,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730897345594</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update workspace.xml and components: Adjust task entries and refactor code formatting">
+      <option name="closed" value="true" />
+      <created>1730897743354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730897743354</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +137,7 @@
     <MESSAGE value="Update workspace.xml: Add new task and VcsManagerConfiguration component" />
     <MESSAGE value="Update text content and image paths across multiple components for localization and branding adjustments" />
     <MESSAGE value="Update useEffect dependency in Cover component and adjust workspace.xml task entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update useEffect dependency in Cover component and adjust workspace.xml task entries" />
+    <MESSAGE value="Update workspace.xml and components: Adjust task entries and refactor code formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and components: Adjust task entries and refactor code formatting" />
   </component>
 </project>
