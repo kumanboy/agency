@@ -7,35 +7,36 @@ const BoxRevealDemo = () => {
   return (
     <div className="h-full w-full items-center justify-center ml-10 overflow-hidden pt-8 space-y-2">
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        
-        <p className="text-3xl font-semibold">1. Connect</p>
+
+        <p className="text-3xl font-semibold">1. Murojaat qilish</p>
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
         <h2 className="my-2 text-lg text-gray-500">
-          Connect with us via
+          Biz sizga masofadan turib bepul
           <Link href={"/meeting"} className="text-[#3b82f6]">
             {" "}
-            meeting{" "}
+            konsultatsiya{" "}
           </Link>
+            beramiz.
         </h2>
       </BoxReveal>
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="text-3xl font-semibold">2. Collaborate</p>
+        <p className="text-3xl font-semibold">2. Hamkorlik qiling</p>
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
         <h2 className="my-2 text-lg text-gray-500">
-          Outline the scope of the project
+            Loyihangizni biz bilan bo`lishing
         </h2>
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="text-3xl font-semibold">3. Create</p>
+        <p className="text-3xl font-semibold">3. Yaratish</p>
       </BoxReveal>
 
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <h2 className="my-2 text-lg text-gray-500">Leave the rest to us</h2>
+        <h2 className="my-2 text-lg text-gray-500">Qolganini bizga qoldiring    </h2>
       </BoxReveal>
     </div>
   );

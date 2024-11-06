@@ -13,7 +13,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { PiCheckBold } from "react-icons/pi";
 import { Link as ScrollLink, Element } from "react-scroll";
-import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 
@@ -153,7 +152,7 @@ export default function Home() {
             className="md:text-center
            text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
           >
-            Loyihangizni muhokama qilish va bir necha daqiqada narx bilan tanishib olish uchun biz bilan bog'laning
+            Loyihangizni muhokama qilish va bir necha daqiqada narx bilan tanishib olish uchun biz bilan bog`laning
           </p>
 
           <div
@@ -312,7 +311,7 @@ export default function Home() {
       <Element name="process">
         <main className="md:px-0 mx-6 md:mx-auto">
         <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
-        Our{" "}
+        Bizning{" "}
             <span className="text-blue-500 flex gap-x-1 items-center">
               {" "}
               <Image
@@ -322,7 +321,7 @@ export default function Home() {
                 className="w-6"
                 alt="image"
               />
-              Creative
+              Mijozlar
               <Image
                 src={"/icons/star.svg"}
                 width={10000}
@@ -331,14 +330,13 @@ export default function Home() {
                 alt="image"
               />
             </span>{" "}
-            Process
+            bilan jarayonimiz
           </h1>
 
           <p className="text-center
           py-4 md:w-1/2 mx-auto
           text-xl md:text-2xl text-gray-500">
-            All of our services are designed to help your business to get
-            noticed.
+            Bizning barcha xizmatlarimiz sizning biznesingizga e`tibor qaratish uchun mo`ljallangan.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center w-full md:w-1/2 mx-auto">
@@ -353,38 +351,6 @@ export default function Home() {
 
         </main>
       </Element>
-
-      <section>
-        <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
-          <Image
-            src={"/logo/logo.webp"}
-            width={10000}
-            height={10000}
-            className=" md:w-1/3 rounded-md"
-            alt="image"
-          />
-          <div className="flex flex-col gap-y-5 md:w-1/2">
-            <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
-            </h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-
-            <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
-            </span>
-          </div>
-        </main>
-      </section>
 
       <Element name="guarentees">
         <ShootingStarsAndStarsBackgroundDemo />
@@ -405,17 +371,17 @@ export default function Home() {
               alt="image"
             />{" "}
           </h1>
-          <p className="text-left  text-xl  text-gray-500">519-200-5000</p>
+          <p className="text-left  text-xl  text-gray-500">(+998) 91 234 56</p>
           <p className="text-left  text-xl  text-gray-500">
-            admin@devussoftware.ca
+            admin@devussoftware.uz
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Devus. All Rights Reserved.
-          <Link href="/" className="text-blue-500">
-            Privacy Policy
-          </Link>
+          © 2025 Devus. Barcha huquqlar himoyalangan.
+          {/*<Link href="/" className="text-blue-500">*/}
+          {/*  Privacy Policy*/}
+          {/*</Link>*/}
         </div>
       </footer>
     </div>

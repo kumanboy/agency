@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="changed" />
+    <list default="true" id="4433ab70-7c40-498a-91a8-9fb072217866" name="Changes" comment="Update workspace.xml: Add new task and VcsManagerConfiguration component">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/demos/animated-beam-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/animated-beam-demo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/demos/box-reveal-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/box-reveal-demo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/demos/cover-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/cover-demo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/demos/shooting-stars-demo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/demos/shooting-stars-demo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/showcase-navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/showcase-navbar.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,30 +22,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2oP7bfVigZSTpMVACNCLHOUT3X7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\kumanboy\\OneDrive\\Desktop\\agency\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\kumanboy\\OneDrive\\Desktop\\agency\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -62,6 +71,11 @@
       <option name="presentableId" value="Default" />
       <updated>1730759432268</updated>
       <workItem from="1730759434604" duration="7730000" />
+      <workItem from="1730787433684" duration="848000" />
+      <workItem from="1730788706098" duration="254000" />
+      <workItem from="1730813187893" duration="1223000" />
+      <workItem from="1730867878927" duration="202000" />
+      <workItem from="1730892591651" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="changed">
       <option name="closed" value="true" />
@@ -71,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730767243579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update workspace.xml: Add new task and VcsManagerConfiguration component">
+      <option name="closed" value="true" />
+      <created>1730787468500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730787468500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed" />
+    <MESSAGE value="Update workspace.xml: Add new task and VcsManagerConfiguration component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml: Add new task and VcsManagerConfiguration component" />
   </component>
 </project>

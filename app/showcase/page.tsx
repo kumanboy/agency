@@ -23,7 +23,7 @@ const Showcase = () => {
           />
         </div>
         <p className="md:text-center text-xl md:text-2xl my-6   md:w-4/5 mx-auto text-gray-500">
-          Bizning So'nggi Loyiha Va Natijalarimiz
+          Bizning So`nggi Loyiha Va Natijalarimiz
         </p>
 
         <BlurFadeDemo />

@@ -48,7 +48,7 @@ xl:w-4/5
           hover:text-blue-500
           "
           >
-            Loyihalr
+            Loyihalar
           </Link>
              <Link href="/" className="hover:text-blue-500">
             Xizmatlar
