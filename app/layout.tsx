@@ -8,7 +8,7 @@ import React from "react";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://talimot.uz'),
+  metadataBase: new URL('https://devus.uz'),
   title: 'Dasturlashga oid maqolalar va dars toplamlar',
   description:
       'Dasturlash haqida yangiliklar, maslahatlar, va dasturlash sohasidagi eng soʻnggi xabarlar. Bizning blogda dasturlashni oʻrganish va rivojlantirish uchun qoʻllanma topishingiz mumkin.',
